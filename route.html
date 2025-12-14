@@ -1,0 +1,16 @@
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<input id="from" placeholder="From">
+<input id="to" placeholder="To">
+<button onclick="findRoute()">Find Route</button>
+<p id="result"></p>
+<button onclick="startTrip()">Start</button>
+
+<div id="map" style="height:400px"></div>
+
+<script type="module" src="js/route.js"></script>
